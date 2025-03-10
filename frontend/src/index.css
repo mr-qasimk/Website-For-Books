@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Apply the fade-in animation to the page */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
