@@ -144,7 +144,7 @@ function SignUpModal({ isOpen, onClose }) {
               </div>
             </form>
             <div className="text-center">
-              <p className="text-sm">
+              <p className="text-sm text-black">
                 Already have an account?{' '}
                 <button 
                   onClick={() => {

@@ -105,11 +105,17 @@ function SignInModal({ isOpen, onClose }) { // Accept isOpen and onClose as prop
               </div>
             </form>
             <div className="text-center">
-              <p className="text-sm">
-                Don't have an account?{' '}
-                <Link to="/signup" className="text-blue-500 hover:underline">
+              <p className="text-sm text-black">
+                Don't have an account? {' '}
+                <button 
+                  onClick={() => {
+                    onClose();
+                   
+                  }}
+                  className="text-blue-500 hover:underline">
                   Sign Up
-                </Link>
+                </button>
+                
               </p>
             </div>
             <button
