@@ -41,7 +41,7 @@ npm install
 - Add the following variables with appropriate values
 ```bash
 ACCESS_SECRET_KEY=qasim2905
-mongooseUrl=mongodb+srv://qasim2905:qasim2905@cluster0.b7lll.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+mongooseUrl=Your Own MongoDb URl
 
 PORT=8088
 
